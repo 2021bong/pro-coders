@@ -70,25 +70,27 @@ npm run dev
 
 ## ✅ SHOP > SHOES 카테고리별 제품 필터링
 
-<img src='./images/기능1-1.png' width="50%"><img src='./images/기능1-2.png' width="50%">
+<img width="965" alt="기능1-1" src="https://user-images.githubusercontent.com/49029756/202986059-498e2c95-3d3b-400f-89eb-d8540f837126.png">
+
+<img width="967" alt="기능1-2" src="https://user-images.githubusercontent.com/49029756/202986084-09c781c0-ce14-4ee6-b6b4-d92c2b91b9bb.png">
 
 <br/>
 
 ## ✅ SHOP > SHOES 제품데이터별 정상가/할인율/할인가/성별 필터링
 
-<img src='./images/기능2.png'>
+<img width="959" alt="기능2" src="https://user-images.githubusercontent.com/49029756/202986100-f31f4ad5-cb05-486f-aaaf-3f904f72a9fe.png">
 
 <br/>
 
 ## ✅ SHOP > SHOES 필터검색 클릭시 필터모달 등장
 
-<img src='./images/기능3.png'>
+<img width="978" alt="기능3" src="https://user-images.githubusercontent.com/49029756/202986111-04d42765-40d9-4b3d-b607-2b551a38028b.png">
 
 <br/>
 
 ## ✅ 제품 클릭시 해당 제품 상세페이지 이동
 
-<img src='./images/기능4-1.png'>
+<img width="1068" alt="기능4" src="https://user-images.githubusercontent.com/49029756/202986120-efe1db5d-c794-4876-9fa6-6678bd125614.png">
 
 <br/>
 
