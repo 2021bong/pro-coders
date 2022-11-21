@@ -1,24 +1,47 @@
-# 7 Team Project
+# 🤾‍♂️ 프로코더스(Pro-Coders)
 
-#### 클론사이트 : 프로스펙스(Prospecs)[https://www.prospecs.com/display.do?cmd=mallMain]
+## 👋 소개
+
+학습 목적으로 진행한 [프로스펙스(Prospecs)](https://www.prospecs.com/display.do?cmd=mallMain) 모티프 프로젝트입니다.
+
+<br />
+<br />
+
+## 🤹‍♂️ 팀원
+
+**✨FE** [- GitHub Repo](https://github.com/wecode-bootcamp-korea/justcode-6-1st-pro-coders-front)
+
+이다익 - https://github.com/kkukileon305
+
+봉원희 - https://github.com/2021Bong
+
+최승철 - https://github.com/tmdcjf152
+
+<br />
+
+**✨BE** [- GitHub Repo](https://github.com/wecode-bootcamp-korea/justcode-6-1st-pro-coders-back)
+
+이신희 - https://github.com/shlee2227
+
+조윤식 - https://github.com/younsik2
 
 <br/>
 
-# 소개
-
-#### ✅ 무엇을 위한 프로젝트인가?
-
-#### 지금까지 배운 기술을 응용하고 개발 실력을 향상 시키기 위한 목적을 가지고 있습니다.
+-------------
 
 <br/>
 
-# 기술 스택
+## 🔧 사용 기술 및 파일 구조
+
+<br/>
+
+- 사용 기술
+
+> Vite
 
 > JavaScript
 
-> React
-
-> Vite
+> React.js
 
 > styled-components
 
@@ -26,17 +49,166 @@
 
 <br/>
 
-# 프로젝트 설치 및 실행 방법
+- 파일 구조
 
-✅ 설치방법
+```
+├── .gitignore
+├── .github
+│   └── pull_request_template.md
+├── .prettierrc
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   ├── data
+│   │   ├── archive.json
+│   │   ├── event.json
+│   │   ├── nominationData.JSON
+│   │   ├── product.json
+│   │   └── shoesData.JSON
+│   └── images
+│       ├── archive
+│       │   ├── img1.jpg
+│       │   ├── img10.jpg
+│       │   ├── img11.jpg
+│       │   ├── img12.jpg
+│       │   ├── img2.jpg
+│       │   ├── img3.jpg
+│       │   ├── img4.jpg
+│       │   ├── img5.jpg
+│       │   ├── img6.jpg
+│       │   ├── img7.jpg
+│       │   ├── img8.jpg
+│       │   └── img9.jpg
+│       ├── logo-black.svg
+│       ├── logo-white.svg
+│       └── nav
+│           ├── icon
+│           │   ├── btn_arrow_next.svg
+│           │   ├── btn_arrow_prev.svg
+│           │   ├── footer_logo.svg
+│           │   ├── icon_arrow_L_white.svg
+│           │   ├── icon_arrow_R_white.svg
+│           │   ├── icon_cart_white.svg
+│           │   ├── icon_facebook.svg
+│           │   ├── icon_insta.svg
+│           │   ├── icon_quick_01.svg
+│           │   ├── icon_quick_02.svg
+│           │   ├── icon_quick_03.svg
+│           │   ├── icon_search.svg
+│           │   ├── icon_search_close.svg
+│           │   ├── icon_search_white.svg
+│           │   ├── icon_top_arrow.svg
+│           │   ├── icon_youtube.svg
+│           │   └── logo_white.svg
+│           └── img
+│               ├── ad1.png
+│               ├── ad2.png
+│               ├── ad3.png
+│               ├── ad4.png
+│               ├── gnb_banner_smartfit.png
+│               └── search_add.png
+├── README.md
+├── src
+│   ├── App.jsx
+│   ├── components
+│   │   ├── Footer.jsx
+│   │   ├── LoginModal.jsx
+│   │   ├── Nav.jsx
+│   │   ├── Skeleton
+│   │   │   ├── BestSkeleton.jsx
+│   │   │   ├── EventSkeleton.jsx
+│   │   │   ├── LookbookSkeleton.jsx
+│   │   │   ├── ProductSkeleton.jsx
+│   │   │   ├── SearchSkeleton.jsx
+│   │   │   ├── ShoesSkeleton.jsx
+│   │   │   ├── StoreSkeleton.jsx
+│   │   │   └── SwiperSkeleton.jsx
+│   │   ├── Spinner.jsx
+│   │   └── TopButton.jsx
+│   ├── hooks
+│   │   ├── useInfiniteSwiper.js
+│   │   ├── useScroll.js
+│   │   └── useSwiper.js
+│   ├── main.jsx
+│   ├── pages
+│   │   ├── Shop
+│   │   │   ├── Shoes
+│   │   │   │   ├── AllShoes.jsx
+│   │   │   │   └── sections
+│   │   │   │       ├── FilterModal.jsx
+│   │   │   │       ├── Item.jsx
+│   │   │   │       ├── ItemBox.jsx
+│   │   │   │       ├── MdPick.jsx
+│   │   │   │       └── Nomination.jsx
+│   │   │   ├── ShopPage.jsx
+│   │   │   └── sections
+│   │   │       ├── FirstSection.jsx
+│   │   │       ├── FourthSection.jsx
+│   │   │       ├── SecondSection.jsx
+│   │   │       └── ThirdSection.jsx
+│   │   ├── archive
+│   │   │   └── Archive.jsx
+│   │   ├── cart
+│   │   │   ├── Cart.jsx
+│   │   │   └── CartSkeleton.jsx
+│   │   ├── event
+│   │   │   ├── CardContent.jsx
+│   │   │   ├── Event.jsx
+│   │   │   └── EventCard.jsx
+│   │   ├── main
+│   │   │   ├── Header.jsx
+│   │   │   ├── Main.jsx
+│   │   │   └── Sections
+│   │   │       ├── FifthSection.jsx
+│   │   │       ├── FirstSection.jsx
+│   │   │       ├── FourthSection.jsx
+│   │   │       ├── Item.jsx
+│   │   │       ├── SecondSection.jsx
+│   │   │       └── ThirdSection.jsx
+│   │   ├── product
+│   │   │   ├── Product.jsx
+│   │   │   └── Sections
+│   │   │       ├── AccordionCard.jsx
+│   │   │       ├── AiFilter.jsx
+│   │   │       ├── ProductDetail.jsx
+│   │   │       └── ProductOption.jsx
+│   │   ├── search
+│   │   │   └── Search.jsx
+│   │   ├── signUp
+│   │   │   └── SignUp.jsx
+│   │   ├── smartfit
+│   │   │   └── SmartFit.jsx
+│   │   └── store
+│   │       ├── Map.jsx
+│   │       ├── Store.jsx
+│   │       └── StoreInfo.jsx
+│   └── styles
+│       ├── GlobalStyle.jsx
+│       └── theme.js
+└── vite.config.js
+```
 
-1. Node.JS를 다운받아 설치해주세요. vite를 사용하였기 때문에 최소 14.18 버전 이상이 요구됩니다. https://nodejs.org/
+-------------
 
-2. 리포지토리를 클론해주세요.
+<br/>
+
+## ⚙️ 프로젝트 설치 및 실행 방법
+
+<br/>
+
+- 설치 방법
+
+1. Node.JS를 다운받아 설치해주세요. vite를 사용하였기 때문에 최소 14.18 버전 이상이 요구됩니다. [참고](https://nodejs.org/)
+
+<br/>
+
+2. 레포지토리를 받아주세요.
 
 ```
  git clone https://github.com/wecode-bootcamp-korea/justcode-6-1st-pro-coders-front.git
 ```
+<br/>
 
 3. dependencies를 설치해주세요.
 
@@ -44,31 +216,45 @@
 npm install
 ```
 
-✅ 실행방법
+<br/>
+<br/>
+
+- 실행 방법
 
 1. 다음 명령어를 이용해 Dev server를 실행해주세요.
 
 ```
 npm run dev
 ```
+<br/>
 
 2. 브라우저에서 <http://localhost:5173>에 접속해주세요.
 
 <br/>
 
-# 저작권, 라이선스 정보
-
-#### [저작자] by prospecs
-
-#### [이미지출처] https://www.prospecs.com
-
-#### ✅ 모든 이미지의 저작권 사용은 자사의 허락을 맡아 제품사진만 사용 하였습니다.
+------------------
 
 <br/>
 
-# 주요기능 및 설명
+## 🔐 저작권, 라이선스 정보
 
-## ✅ SHOP > SHOES 카테고리별 제품 필터링
+#### 📞 프로스펙스의 허락을 받아 제품사진만 사용 하였습니다.
+
+#### 🚨 모든 이미지의 저작권은 [프로스펙스](https://www.prospecs.com)에 있습니다.
+
+<br/>
+
+------------
+
+<br/>
+
+## 📌 기능 구현 및 설명
+
+<br/>
+
+## 최승철
+
+### ✅ SHOP > SHOES 카테고리별 제품 필터링
 
 <img width="965" alt="기능1-1" src="https://user-images.githubusercontent.com/49029756/202986059-498e2c95-3d3b-400f-89eb-d8540f837126.png">
 
@@ -76,25 +262,31 @@ npm run dev
 
 <br/>
 
-## ✅ SHOP > SHOES 제품데이터별 정상가/할인율/할인가/성별 필터링
+### ✅ SHOP > SHOES 제품데이터별 정상가/할인율/할인가/성별 필터링
 
 <img width="959" alt="기능2" src="https://user-images.githubusercontent.com/49029756/202986100-f31f4ad5-cb05-486f-aaaf-3f904f72a9fe.png">
 
 <br/>
 
-## ✅ SHOP > SHOES 필터검색 클릭시 필터모달 등장
+### ✅ SHOP > SHOES 필터검색 클릭시 필터모달 등장
 
 <img width="978" alt="기능3" src="https://user-images.githubusercontent.com/49029756/202986111-04d42765-40d9-4b3d-b607-2b551a38028b.png">
 
 <br/>
 
-## ✅ 제품 클릭시 해당 제품 상세페이지 이동
+### ✅ 제품 클릭시 해당 제품 상세페이지 이동
 
 <img width="1068" alt="기능4" src="https://user-images.githubusercontent.com/49029756/202986120-efe1db5d-c794-4876-9fa6-6678bd125614.png">
 
+<br />
+<br />
+<br />
+
+## 이다익
+
 <br/>
 
-## ✅ 메인페이지 및 Shop페이지 레이아웃 및 swiper 구현
+### ✅ 메인페이지 및 Shop페이지 레이아웃 및 swiper 구현
 
 클릭 시작시의 clientX값을 저장해서 이동시의 clientX값과의 차이를 이용해 transform속성을 직접 조작하는 방식을 이용하였습니다.
 
@@ -106,31 +298,42 @@ npm run dev
 
 ![swiper4](https://user-images.githubusercontent.com/102274941/188801962-1d15f3b0-dc9c-468a-b973-587eeebbacb9.png)
 
-## ✅ 메인페이지 스크롤효과 구현
+<br />
+
+### ✅ 메인페이지 스크롤효과 구현
 
 Intersection observer를 활용하였습니다.
 
 ![intersection-observer](https://user-images.githubusercontent.com/102274941/188809862-a437974c-15f8-462e-b5fe-6f001909a2b8.png)
 
-## ✅ Nav bar 구현
+<br />
+
+### ✅ Nav bar 구현
 
 원본 사이트의 메뉴가 너무 좁다는 느낌이 들어서 위아래로 스크롤 할 수 있도록 분리하였습니다.
 
 ![nav1](https://user-images.githubusercontent.com/102274941/188806927-e2336f33-05cf-4e2a-adf6-96590d3aa567.png)
 ![nav2](https://user-images.githubusercontent.com/102274941/188806933-a3a45f88-7f94-4747-a1dc-8a9c5a186134.png)
 
-## ✅ 로그인, 회원가입 레이아웃 및 로직 구현, 유효성 로직 구현
+<br />
+
+### ✅ 로그인, 회원가입 레이아웃 및 로직 구현, 유효성 로직 구현
 
 ![login2](https://user-images.githubusercontent.com/102274941/188804459-9256a662-7076-449c-bd14-6ec6cb1c1b86.png)
 
 ![signup](https://user-images.githubusercontent.com/102274941/188804448-66113b40-6cb2-47f1-a6b5-978a5714d4fb.png)
-## ✅ Shoes 페이지 Pagination 구현 및 Skeleton 구현
+
+<br />
+
+### ✅ Shoes 페이지 Pagination 구현 및 Skeleton 구현
 
 ![pagination](https://user-images.githubusercontent.com/102274941/188805683-d9256905-9db5-4083-af9d-5d4295f9aeeb.png)
 
 ![pagination-skeleton](https://user-images.githubusercontent.com/102274941/188805836-486dd20f-7902-4b0d-aaf9-e2a64f24d0bc.png)
 
-## ✅ 상품 상세페이지 Skeleton 구현 및 카트 추가 로직 구현
+<br />
+
+### ✅ 상품 상세페이지 Skeleton 구현 및 카트 추가 로직 구현
 
 ![cart-skeleton](https://user-images.githubusercontent.com/102274941/188807081-abb47f2b-7bb4-41a2-9d01-9119d30a7283.png)
 
@@ -140,13 +343,23 @@ Intersection observer를 활용하였습니다.
 
 ![cart-validation](https://user-images.githubusercontent.com/102274941/188807092-edb9262b-1659-4c43-89f3-5c72fc4ecafd.png)
 
-## ✅ Cart 페이지 레이아웃 및 카트 제품 삭제 등 로직 구현
+<br />
+
+### ✅ Cart 페이지 레이아웃 및 카트 제품 삭제 등 로직 구현
 
 ![cart-skeleton2](https://user-images.githubusercontent.com/102274941/188808671-a98e117f-1f1f-463a-9787-9b69cc2bb4d3.png)
 
 ![cart](https://user-images.githubusercontent.com/102274941/188808444-683d9d62-fc23-4980-b53e-e59ca348d8a9.png)
 
-## ✅ Event 페이지 레이아웃 및 Skeleton 구현
+<br />
+<br />
+<br />
+
+## 봉원희
+
+<br />
+
+### ✅ Event 페이지 레이아웃 및 Skeleton 구현
 
 - Skeleton 구현
 - UI 구현
@@ -154,7 +367,9 @@ Intersection observer를 활용하였습니다.
 
 ![event](https://user-images.githubusercontent.com/49029756/188876206-a6ad2cb1-19fc-4a45-9668-c4241af798b4.png)
 
-## ✅ Archive 페이지 레이아웃 및 Skeleton 구현
+<br />
+
+### ✅ Archive 페이지 레이아웃 및 Skeleton 구현
 
 - Skeleton 구현
 - 슬라이드 구현
@@ -162,7 +377,9 @@ Intersection observer를 활용하였습니다.
 
 ![archive](https://user-images.githubusercontent.com/49029756/188876390-0019dc06-6a92-4a61-b4bd-39732c2a91f7.png)
 
-## ✅ Store 페이지 레이아웃 및 Skeleton 구현
+<br />
+
+### ✅ Store 페이지 레이아웃 및 Skeleton 구현
 
 - Skeleton 구현
 - 카카오맵 API를 이용한 매장 지도
@@ -172,7 +389,9 @@ Intersection observer를 활용하였습니다.
 
 ![store-img2](https://user-images.githubusercontent.com/49029756/188953505-b8e39f31-290b-4b3a-bc8e-a0a4ab558d1f.png)
 
-## ✅ Smartfit 페이지 레이아웃 및 로그인 기능 추가
+<br />
+
+### ✅ Smartfit 페이지 레이아웃 및 로그인 기능 추가
 
 - Smartfit 페이지 UI 구현
 - GO 클릭시 로그인 모달 또는 로그인 확인 모달이 나오도록 구현
@@ -182,7 +401,9 @@ Intersection observer를 활용하였습니다.
 
 ![smartfit-img2](https://user-images.githubusercontent.com/49029756/188876780-758aa3ce-0800-462c-b83e-2c2439ee8420.png)
 
-## ✅ 검색 기능 구현 및 Skeleton 구현
+<br />
+
+### ✅ 검색 기능 구현 및 Skeleton 구현
 
 - Skeleton 구현
 - 키워드 검색 기능 구현
@@ -193,19 +414,3 @@ Intersection observer를 활용하였습니다.
 ![search-img1](https://user-images.githubusercontent.com/49029756/188877086-ed15d717-ea8a-42bd-811a-1ab745bb97bb.png)
 
 ![search-img2](https://user-images.githubusercontent.com/49029756/188877105-04ee4d56-8a10-4a4c-99c3-3cd09fe02999.png)
-
-# 정보
-
-### ✅ 팀원
-
-> 이다익 - https://github.com/kkukileon305
-
-> 봉원희 - https://github.com/2021Bong
-
-> 최승철 - https://github.com/tmdcjf152
-
-> 이신희 - https://github.com/shlee2227
-
-> 조윤식 - https://github.com/younsik2
-
-# 외부 리소스 정보
